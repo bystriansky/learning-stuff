@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 body {
-  background: #0E0E0E;
-  color: #FFFFFF;
+  background: #0e0e0e;
+  color: #ffffff;
   font-family: 'Montserrat', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
