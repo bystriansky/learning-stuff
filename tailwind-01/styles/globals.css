@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   background: #0E0E0E;
-  color: #F4F6F8;
-  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.intro-bg-img {
+  background: 120% top url('/img/company.jpg') no-repeat;
+  background-size: auto 100%;
+}
+
+.banner-bg-img {
+  background: url('/img/banner.jpg') no-repeat;
+  background-size: cover;
 }
