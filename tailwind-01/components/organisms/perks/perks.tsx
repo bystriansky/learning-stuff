@@ -1,7 +1,7 @@
 import { PerksItem } from './perks-item'
 
 export const Perks = () => (
-  <section className="flex flex-col gap-20 px-20 py-24">
+  <section className="flex flex-col gap-20 wrapper py-24">
     <PerksItem
       title="Enterprise"
       desc="Tasks, deadlines, projects. Bring it all together with the project management tool that over 2 Million teams love & 1000s of IT Admins trust."

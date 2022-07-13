@@ -2,9 +2,9 @@ import { Link } from '../../atoms/link'
 import { Logo, SocialLinks } from '../../molecules'
 
 export const PageFooter = () => (
-  <footer className="px-20 py-7 flex items-center justify-between bg-primary-dark ">
+  <footer className="wrapper py-7 flex items-center justify-between bg-primary-dark ">
     <Logo variant="large" />
-    <ul className="flex gap-8 text-xl text-text-light">
+    <ul className="hidden md:flex gap-8 text:lg lg:text-xl text-text-light">
       <li className="hover:text-white">
         <Link href="/">Features</Link>
       </li>

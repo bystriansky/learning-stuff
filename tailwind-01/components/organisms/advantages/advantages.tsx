@@ -2,7 +2,7 @@ import { AdvantagesItem } from './advantages-item'
 import { Headline, HeadlineSubtitle, HeadlineTitle } from '../../molecules'
 
 export const Advantages = () => (
-  <section className="px-20 py-24">
+  <section className="wrapper py-24">
     <Headline>
       <HeadlineTitle>Rite Advantages</HeadlineTitle>
       <HeadlineSubtitle>
@@ -10,7 +10,7 @@ export const Advantages = () => (
       </HeadlineSubtitle>
     </Headline>
 
-    <div className="flex shrink-0 gap-8">
+    <div className="flex flex-col md:flex-row shrink-0 gap-8">
       <AdvantagesItem
         icon={
           <svg className="fill-current" viewBox="0 0 20 20">

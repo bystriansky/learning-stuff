@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .wrapper {
+    @apply px-5 sm:px-10 md:px-20
+  }
+}
+
 body {
   background: #0e0e0e;
   color: #ffffff;
@@ -13,11 +19,17 @@ body {
 }
 
 .intro-bg-img {
-  background: 120% top url('/img/company.jpg') no-repeat;
+  background: 130% top url('/img/company.jpg') no-repeat;
   background-size: auto 100%;
 }
 
 .banner-bg-img {
   background: url('/img/banner.jpg') no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro-bg-img {
+      background: none;
+  }
 }
